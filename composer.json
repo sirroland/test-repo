@@ -1,0 +1,31 @@
+{
+    "name": "sirroland/test-package",
+    "type": "test-bundle",
+    "description": "Test package",
+    "keywords": [ "test" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Ginko",
+            "email": "asp31337@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "egeloen/json-builder": "^3.0",
+    },
+    "require-dev": {
+        "composer/composer": "^1.0",
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-4": { "Sirroland\\TestPackage\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
