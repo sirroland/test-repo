@@ -12,10 +12,10 @@
     ],
     "require": {
         "php": "^7.1",
-        "egeloen/json-builder": "^3.0",
+        "egeloen/json-builder": "^3.0"
     },
     "require-dev": {
-        "composer/composer": "^1.0",
+        "composer/composer": "^1.0"
     },
     "suggest": {
 
